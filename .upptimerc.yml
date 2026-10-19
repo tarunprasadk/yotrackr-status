@@ -34,10 +34,10 @@ status-website:
     - rel: preconnect
       href: https://fonts.googleapis.com
     - rel: stylesheet
-      href: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap
+      href: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&family=Instrument+Serif:ital@0;1&display=swap
     - rel: stylesheet
-      href: https://yotrackr.com/status-theme.css
-  introTitle: "YoTrackr status"
+      href: https://yotrackr.com/status-theme.css?v=2
+  introTitle: "YoTrackr *Status*"
   introMessage: "Live status of the YoTrackr web app, API and website. If something is wrong you will see it here first."
   navbar:
     - title: Status
