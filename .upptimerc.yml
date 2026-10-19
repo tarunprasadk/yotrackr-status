@@ -17,7 +17,6 @@ sites:
     expectedStatusCodes:
       - 200
     maxResponseTime: 5000
- 
 
 assignees:
   - tarunprasadk
@@ -27,6 +26,17 @@ status-website:
   # When status.yotrackr.com is set up, delete baseUrl and add: cname: status.yotrackr.com
   baseUrl: /yotrackr-status
   name: YoTrackr Status
+  logoUrl: https://yotrackr.com/logo-full.png
+  logoHref: https://yotrackr.com
+  hideNavTitle: true
+  favicon: https://yotrackr.com/logo-mark.png
+  links:
+    - rel: preconnect
+      href: https://fonts.googleapis.com
+    - rel: stylesheet
+      href: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap
+    - rel: stylesheet
+      href: https://yotrackr.com/status-theme.css
   introTitle: "YoTrackr status"
   introMessage: "Live status of the YoTrackr web app, API and website. If something is wrong you will see it here first."
   navbar:
