@@ -1,31 +1,37 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: tarunprasadk
+repo: yotrackr-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: API and database
+    url: https://api.yotrackr.com/healthz/deep
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 3000
+  - name: Web app
+    url: https://app.yotrackr.com
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 5000
+  - name: Website
+    url: https://yotrackr.com
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 5000
+
+assignees:
+  - tarunprasadk
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # No custom domain yet: the page lives at tarunprasadk.github.io/yotrackr-status.
+  # When status.yotrackr.com is set up, delete baseUrl and add: cname: status.yotrackr.com
+  baseUrl: /yotrackr-status
+  name: YoTrackr Status
+  introTitle: "YoTrackr status"
+  introMessage: "Live status of the YoTrackr web app, API and website. If something is wrong you will see it here first."
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: YoTrackr
+      href: https://yotrackr.com
+    - title: Contact support
+      href: https://yotrackr.com/contact
