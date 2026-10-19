@@ -17,10 +17,7 @@ sites:
     expectedStatusCodes:
       - 200
     maxResponseTime: 5000
-  - name: Alert test
-    url: https://api.yotrackr.com/this-page-does-not-exist
-    expectedStatusCodes:
-      - 200
+ 
 
 assignees:
   - tarunprasadk
