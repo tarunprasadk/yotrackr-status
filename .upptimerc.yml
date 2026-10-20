@@ -21,6 +21,9 @@ sites:
 assignees:
   - tarunprasadk
 
+i18n:
+  footer: "© YoTrackr. Live status of [yotrackr.com](https://yotrackr.com). Need help? [Contact support](https://yotrackr.com/contact)."
+
 status-website:
   # No custom domain yet: the page lives at tarunprasadk.github.io/yotrackr-status.
   # When status.yotrackr.com is set up, delete baseUrl and add: cname: status.yotrackr.com
@@ -36,7 +39,7 @@ status-website:
     - rel: stylesheet
       href: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&family=Instrument+Serif:ital@0;1&display=swap
     - rel: stylesheet
-      href: https://yotrackr.com/status-theme.css?v=2
+      href: https://yotrackr.com/status-theme.css?v=3
   introTitle: "YoTrackr *Status*"
   introMessage: "Live status of the YoTrackr web app, API and website. If something is wrong you will see it here first."
   navbar:
