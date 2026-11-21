@@ -25,9 +25,8 @@ i18n:
   footer: "© YoTrackr. Live status of [yotrackr.com](https://yotrackr.com). Need help? [Contact support](https://yotrackr.com/contact)."
 
 status-website:
-  # No custom domain yet: the page lives at tarunprasadk.github.io/yotrackr-status.
-  # When status.yotrackr.com is set up, delete baseUrl and add: cname: status.yotrackr.com
-  baseUrl: /yotrackr-status
+  # Custom domain: DNS CNAME status -> tarunprasadk.github.io (Cloudflare, DNS only / grey cloud).
+  cname: status.yotrackr.com
   name: YoTrackr Status
   logoUrl: https://yotrackr.com/logo-full.png
   logoHref: https://yotrackr.com
